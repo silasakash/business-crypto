@@ -1,0 +1,152 @@
+* {
+    font-family: 'Roboto','Times New Roman', serif,sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    padding:10px;
+}
+
+header .logo {
+    display: flex;
+}
+
+header h4 {
+    margin: auto 0;
+}
+
+header .links {
+    display: flex;
+    gap:10px;
+    margin-left: auto;
+}
+
+.links a,
+.main p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding:50px;
+    gap:40px;
+}
+
+
+button,
+.signup-container {
+    background-color: #3882F6;
+    color:white;
+}
+
+button {
+    border:2px;
+    border-radius: 5%;
+    font-size: 18px;
+    padding:2px 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.logo {
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.main h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:Extra bold;
+}
+
+.info {
+    background-color: white;
+    padding:10px;
+    margin:0%;
+}
+
+.info h4{
+    font-size: 36px;
+    font-weight: Extra bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.card {
+    width: 200px;
+    
+}
+
+.card img {
+    width:100%;
+    border: 2px solid #3882F6;
+}
+
+.card .desc {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+    margin:0%;
+    padding:50px;
+}
+
+.quote p {
+    margin:0;
+}
+
+.quote .author {
+    text-align: right;
+}
+
+.cta {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.signup-container {
+    height: 50%;
+    width:80%;
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+}
+
+.signup-container button {
+    border:2px solid white;
+}
+
+footer p {
+    color:white;
+    text-align: center;
+    padding:5px;
+}
